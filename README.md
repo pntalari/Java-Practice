@@ -7,8 +7,3 @@ Giving a string, return a list of all the character that is not in the string. F
 
 ## Common Word
 Given a text, count each word in the text. Return the word and its count in descending order to see what's the common word used in the text. Store the word and its count in an Entry object.
-
-## Rearrange Characters
-Given a word, return all the different order of the letters.
-
-For example, given the input "cat", the method should return a list with `"cat", "cta", "act", "atc", "tac", "tca"`. The order doesn't matter.
