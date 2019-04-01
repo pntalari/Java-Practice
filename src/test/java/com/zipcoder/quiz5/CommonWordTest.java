@@ -22,7 +22,7 @@ public class CommonWordTest {
 
     @Test
     public void testCount_forTheSameWord(){
-        String text = "apple Apple apple apple apple";
+        String text = "apple Apple orange apple orange";
 
         List<Entry> counts = commonWord.getCommonWord(text);
         Assert.assertEquals(1, counts.size());
